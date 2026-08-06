@@ -1,0 +1,9 @@
+node_modules/
+.env
+reports/playwright-html/
+reports/test-results/
+reports/screenshots/
+reports/healing-report.json
+playwright-report/
+test-results/
+*.zip

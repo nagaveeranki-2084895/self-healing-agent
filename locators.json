@@ -1,0 +1,102 @@
+{
+  "amazon": {
+    "searchBox": {
+      "primary": "input[name='field-keywords']",
+      "fallbacks": [
+        "[placeholder='Search Amaon.in']",
+        "input[type='textt']",
+        "[aria-label='Serch']",
+        "input[name='field-keyords']"
+      ],
+      "lastHealed": "2026-08-06T11:06:02.358Z",
+      "healCount": 21
+    },
+    "searchButton": {
+      "primary": "#nav-search-submit-button",
+      "fallbacks": [
+        "[type='submit']",
+        "input[value='Go']",
+        ".nav-search-submit input",
+        "[aria-label='Search']"
+      ],
+      "lastHealed": null,
+      "healCount": 0
+    },
+    "cartIcon": {
+      "primary": "#nav-cart",
+      "fallbacks": [
+        "[data-nav-ref='nav_cat']",
+        "a[href='/gp/cart/vew.html']",
+        ".nav-cart-ion",
+        "text=Caatt"
+      ],
+      "lastHealed": "2026-08-06T11:06:23.768Z",
+      "healCount": 8
+    },
+    "signInButton": {
+      "primary": "#nav-link-accountList",
+      "fallbacks": [
+        "text=Sign in",
+        "[data-nav-ref='nav_ya_signin']",
+        ".nav-action-signin-button",
+        "a:has-text('Sign in')"
+      ],
+      "lastHealed": null,
+      "healCount": 0
+    },
+    "firstSearchResult": {
+      "primary": ".s-search-results .a-link-normal:first-child",
+      "fallbacks": [
+        ".s-result-item:first-child h2 a",
+        ".s-search-results .a-link-normal:first-child",
+        "[data-index='1'] h2 a",
+        ".s-result-item:first-child a.a-text-normal"
+      ],
+      "lastHealed": "2026-08-06T10:42:48.725Z",
+      "healCount": 1
+    },
+    "addToCartButton": {
+      "primary": "#add-to-cart-button",
+      "fallbacks": [
+        "input[value='Add to Cart']",
+        "text=Add to Cart",
+        "#submit.add-to-cart",
+        "[data-action='add-to-cart']"
+      ],
+      "lastHealed": null,
+      "healCount": 0
+    },
+    "productTitle": {
+      "primary": "#productTitle",
+      "fallbacks": [
+        ".product-title",
+        "h1.a-size-large",
+        "[data-feature-name='title'] h1",
+        "span#productTitle"
+      ],
+      "lastHealed": null,
+      "healCount": 0
+    }
+  },
+  "google": {
+    "searchBox": {
+      "primary": "textarea[name='q']",
+      "fallbacks": [
+        "textarea[name='qsear']",
+        "[title='Srch']",
+        "[aria-label='Srch']"
+      ],
+      "lastHealed": "2026-08-06T11:06:44.683Z",
+      "healCount": 8
+    },
+    "searchButton": {
+      "primary": "input[name='btnK']",
+      "fallbacks": [
+        "button[aria-label='Google Srch']",
+        "input[value='Google Srch']"
+      ],
+      "lastHealed": null,
+      "healCount": 0
+    }
+  }
+}

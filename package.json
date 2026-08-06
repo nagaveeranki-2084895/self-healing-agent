@@ -1,0 +1,21 @@
+{
+  "name": "playwright-self-healing",
+  "version": "1.0.0",
+  "description": "Self-healing Playwright test automation framework with AI-powered locator recovery",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headmode": "npx playwright test --headed",
+    "test:debug": "npx playwright test --debug",
+    "test:report": "npx playwright show-report",
+    "test:ui": "npx playwright test --ui",
+    "heal:reset": "node utils/resetRegistry.js"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "node-fetch": "^3.3.2"
+  }
+}
